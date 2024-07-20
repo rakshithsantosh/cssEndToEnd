@@ -192,3 +192,55 @@ nav [class*="fa-"]:hover{
     padding:0;
     margin:0;
 }
+
+.project-background{
+    background-color: var(--dkblue);
+    padding:4rem;
+}
+
+#projects{
+    padding: 4rem 1rem;
+}
+
+#projects h2{
+    font-size: 2.5rem;
+    margin-bottom: calc(1.5rem*2.5);
+}
+
+#projects h3{
+    color: var(--aqua);
+}
+
+#projects h4{
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin:0;
+}
+
+.paragraph{
+    background-color: var(--black);
+    padding:1rem;
+    border-radius:10px;
+    color:var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#projects ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    gap:1rem;
+}
+
+#projects img{
+    margin:2rem 0 4rem 0;
+    border-left:1px solid var(--aqua);
+    border-top:1px solid var(--aqua);
+    border-radius: 25px;
+    padding:1rem;
+}
