@@ -134,3 +134,46 @@ nav a:hover,
 nav [class*="fa-"]:hover{
     color:var(--magenta)
 }
+
+.button{
+    background-color: var(--magenta);
+    padding:0.5rem;
+    border-radius: 5px;
+    color:var(--white);
+}
+
+.button:hover{
+    color:var(--white);
+    background-color: var(--hotmag);
+}
+
+@media(min-width:850px){
+    nav{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+
+    nav li:first-child{
+        flex-basis: auto;
+        text-align:left;
+        margin-right:auto;
+    }
+}
+#footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:10rem;
+}
+#footer ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
