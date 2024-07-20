@@ -33,7 +33,7 @@ body{
     padding: 0;
     margin:0;
     font-family: var(--sans);
-    background-color: var(--plum);
+    background-color: var(--black);
     color: var(--white);
     font-size: var(--font-size);
 }
@@ -73,10 +73,11 @@ a:hover{
 }
 
 #contact{
-    width:400px;
+    width:100%;
     text-align: center;
     margin:0 auto;
     padding:3rem 0;
+    background-color: var(--plum);
 }
 
 #contact p{
@@ -90,4 +91,46 @@ a:hover{
 
 #contact h2{
     font-family: var(--mono);
+}
+
+nav{
+    font-family: var(--mono);
+    font-size:80%;
+    padding:1rem;
+}
+
+nav h1 a{
+    font-family: var(--sans);
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+}
+
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+/*nav [class*="fa-"] attribute selector*/
+
+nav [class*="fa-"]{
+    color:var(--aqua);
+    font-size: 100%;
+}
+nav a{
+    color:var(--white);
+    text-decoration: none;
+    display:block;
+}
+
+nav a:hover,
+nav [class*="fa-"]:hover{
+    color:var(--magenta)
 }
