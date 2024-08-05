@@ -143,6 +143,6 @@ html {
 
     h1{
       max-width: 1200px;
-      margin:3rem auto 2rem auto;
+      margin:3rem auto 2rem auto;/*trbl*/
     }
   }
